@@ -1,3 +1,4 @@
+package db;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class CoolWeatherDB {
 	
 	private CoolWeatherDB(Context context) {
 		CoolWeatherOpenHelper dbHelper = new CoolWeatherOpenHelper(context,DB_NAME, null, VERSION);
-		db = dbHelper.getWritableDatabase();
+		db = dbHelper.getWritableDatabase();  //创建或打开数据库
 		}
 	
 	//获取CoolWeatherDB的实例
