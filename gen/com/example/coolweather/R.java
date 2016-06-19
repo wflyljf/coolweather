@@ -2022,9 +2022,11 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
         public static final int abc_textfield_search_material=0x7f02004a;
-        public static final int ic_launcher=0x7f02004b;
-        public static final int logo=0x7f02004c;
-        public static final int notification_template_icon_bg=0x7f02004d;
+        public static final int home=0x7f02004b;
+        public static final int ic_launcher=0x7f02004c;
+        public static final int logo=0x7f02004d;
+        public static final int notification_template_icon_bg=0x7f02004f;
+        public static final int refresh=0x7f02004e;
     }
     public static final class id {
         public static final int action0=0x7f090052;
@@ -2042,7 +2044,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09003e;
         public static final int action_mode_bar_stub=0x7f09003d;
         public static final int action_mode_close_button=0x7f090023;
-        public static final int action_settings=0x7f09005f;
+        public static final int action_settings=0x7f090068;
         public static final int activity_chooser_view_content=0x7f090024;
         public static final int alertTitle=0x7f090030;
         public static final int always=0x7f090019;
@@ -2051,8 +2053,10 @@ containing a value of this type.
         public static final int cancel_action=0x7f090053;
         public static final int checkbox=0x7f090039;
         public static final int chronometer=0x7f090059;
+        public static final int city_name=0x7f090060;
         public static final int collapseActionView=0x7f09001a;
         public static final int contentPanel=0x7f090031;
+        public static final int current_date=0x7f090064;
         public static final int custom=0x7f090037;
         public static final int customPanel=0x7f090036;
         public static final int decor_content_parent=0x7f09003f;
@@ -2083,7 +2087,9 @@ containing a value of this type.
         public static final int parentPanel=0x7f09002d;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
+        public static final int publish_text=0x7f090062;
         public static final int radio=0x7f09003b;
+        public static final int refresh_weather=0x7f090061;
         public static final int screen=0x7f090015;
         public static final int scrollIndicatorDown=0x7f090035;
         public static final int scrollIndicatorUp=0x7f090032;
@@ -2110,7 +2116,10 @@ containing a value of this type.
         public static final int src_over=0x7f090018;
         public static final int status_bar_latest_event_content=0x7f090054;
         public static final int submit_area=0x7f09004c;
+        public static final int switch_city=0x7f09005f;
         public static final int tabMode=0x7f09000c;
+        public static final int temp1=0x7f090066;
+        public static final int temp2=0x7f090067;
         public static final int text=0x7f09005c;
         public static final int text2=0x7f09005a;
         public static final int textSpacerNoButtons=0x7f090034;
@@ -2121,6 +2130,8 @@ containing a value of this type.
         public static final int topPanel=0x7f09002e;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
+        public static final int weather_desp=0x7f090065;
+        public static final int weather_info_layout=0x7f090063;
         public static final int withText=0x7f09001d;
         public static final int wrap_content=0x7f090009;
     }
@@ -2199,6 +2210,7 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f030023;
         public static final int select_dialog_singlechoice_material=0x7f030024;
         public static final int support_simple_spinner_dropdown_item=0x7f030025;
+        public static final int weather_layout=0x7f030026;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
