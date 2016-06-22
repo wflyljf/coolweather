@@ -12,6 +12,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -90,6 +91,7 @@ public class WeatherActivity extends Activity implements OnClickListener {
 			SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 			String weatherCode = prefs.getString("weather_code", "");
 			if (!TextUtils.isEmpty(weatherCode)) {
+				Log.d("weather_code", "falde");
 				queryWeatherInfo(weatherCode);
 			}
 			break;
